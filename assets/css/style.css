@@ -1,0 +1,44 @@
+/* CSS Projeto */
+
+body{
+    padding-top: 3.5rem;
+    background-image: url("../../img/connectwork.png");
+    color:white;
+}
+
+h1{
+    padding-bottom: 9px;
+    margin-bottom:20px;
+    border-bottom: 1px solid #eee;
+}
+.menuLateral {
+  position: fixed;
+  top: 51px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 20px 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-right: 1px solid #eee;
+}
+
+.menuLateral .nav{
+    margin-bottom: 20px;
+}
+
+.menuLateral .nav-item{
+    width:100%;
+}
+
+.menuLateral .nav-link{
+    border-radius: 0;
+}
+
+#excluiAcesso{
+    color:red;
+}
+
+#firstDiv{
+    padding-top: 20px;
+}
